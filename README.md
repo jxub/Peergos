@@ -43,7 +43,7 @@ Architecture
  - 5: Sharing - Secure cryptographic sharing of files with friends.
 
 2.0 Language
- - The IPFS layer is currently coded in Go
+ - The IPFS layer was coded in Go and ported to Java
  - The server is coded to run on JVM to get portability and speed, predominantly Java
  - The web interface is mostly coded in Java and cross compiled to Javascript, with the exception of the tweetnacl, scrypt and sha25 libraries, and a small amount of GUI code in JS for Vue.js. 
 
